@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*OPASITY*/
+.body_hide {
+	opacity: 0;
+	transition: .9s opacity ease-in-out;
+}
+.body_visible {
+	opacity: 1;
+}
+
+
+/* START section1 */
+.section1__title{
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+}
+.first-box{
+    margin-top: 5%;
+}
+.section1__box1{
+    display: block;
+    grid-gap: 10px;
+}
+.section1__subtitle{
+    font-weight: bolder;
+    font-size: 30px;
+    display: block;
+}
+.section1__box{
+    display: block;
+    grid-gap: 10px;
+    margin-top: 80px;
+}
+.section1__top-box{
+    display: flex;
+    flex-direction: column;
+}
+.section1__modal-box{
+    margin-top: 45px;
+}
+
+/*FINISH SECTION 1*/
+
+
+/*MODAL*/
+
+.modal-header__title{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.section-form__validation > p {
+  color: red;
+  margin-top: 20px;
+}
+.modal-box__name-validation {
+  display: none;
+}
+.modal-box__name-validation {
+  margin-top: 5px !important;
+}
+.modal-box__inputs{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+}
+.form-control::placeholder{
+    font-weight: 800;
+    font-size: 15px;
+}
+.modal-box__btn{
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    line-height: 1.5;
+    text-align: center;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+}
+
+footer{
+    margin-top: 30px;
+}

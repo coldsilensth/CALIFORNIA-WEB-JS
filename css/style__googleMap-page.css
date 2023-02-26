@@ -1,0 +1,127 @@
+/* main */
+
+/*OPASITY*/
+.body_hide {
+	opacity: 0;
+	transition: .9s opacity ease-in-out;
+}
+.body_visible {
+	opacity: 1;
+}
+
+
+
+/* section1 */
+.section1__title{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 3%;
+}
+.section1__content-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1%;
+}
+.section1__subtitle{
+    max-width: 550px;
+    min-width: 400px;
+    text-align: center;
+    
+}
+.section1__contacts-button{
+    background-color: black;
+
+}
+/*finish section1*/
+
+/* section2  */
+.section2__top-box{
+    text-align: center;
+}
+.section2__title {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 5%;
+}
+.section2__map {
+    border: 1px black solid;
+    height: 600px;
+    width: 600px;
+}
+@media(max-width:950px){
+    .section1__content-box{
+        flex-direction: column;
+    }
+}
+@media(max-width:770px){
+    .section2__map{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+
+/*finish section 2*/
+
+/* modal */
+.modal-title{
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 0 auto;
+}
+.modal__box {
+    text-align: center;
+}
+.modal__list{
+    font-weight: bold;
+    font-size: 20px;
+    list-style: none;
+    text-align: left;
+    font-weight: bold;
+}
+.modal__list > li{
+    margin-top: 12px;
+}
+.modal__list > li > br{
+    display: none;
+}
+.google-map__title{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 10%;
+}
+.google-map__map {
+    width: 450px;
+    height: 400px;
+    border: 1px black solid;
+}
+@media(max-width:500px){
+    .modal-title{
+        font-size: 25px;
+    }
+}
+@media(max-width:480px){
+    .google-map__map {
+        width: 350px;
+        height: 300px;
+    }
+    .modal__list > li > br{
+        display: inline;
+    }
+    .modal-title{
+        font-size: 20px;
+    }
+}
+@media(max-width:400px){
+    .google-map__map {
+        width: 300px;
+        height: 250px;
+    }
+}
+
+footer{
+    margin-top: 5%;
+}

@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.body_hide {
+	opacity: 0;
+	transition: .9s opacity ease-in-out;
+}
+.body_visible {
+	opacity: 1;
+}
+
+/*START HEADER*/
+.header_fixed {
+    
+    left: 0;
+    top: 0;
+  }
+
+.header {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    padding: 15px 0;
+    z-index: 100;
+    -webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+  }
+   
+  .header__top-box {
+
+    
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 15px;
+  }
+
+/*FINISH HEADER*/
+
+
+/* main */
+
+/*SECTION1*/
+.section1__background {
+    background: url("https://cdn.shopify.com/s/files/1/0572/0345/8247/files/CARL7336-new_0f7432b1-56d4-4c1a-8389-c9167d91c9cb_2048x.png?v=1633118288");
+    background-size: cover;
+    height: 100vh;
+}
+
+.section1__div-block{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10% 0 0 30%; */
+}
+
+.section1__sub-Block {
+    border-radius: 5px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.575);
+    width: 500px;
+    text-align: center;
+}
+
+.section1__title-one{
+    margin: 3% 0 2% 0;
+    font-size: 40px;
+}
+
+.section1__sub-title{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.section1__button {
+    min-width: 170px;
+    height: 40px;
+    background: none;
+    margin-top: 1%;
+    font-size: 17px;
+}
+.section1__button a{
+    text-decoration: none;
+    color: black ;
+}
+/*FINISH SECTION 1*/
+
+
+
+/*START SECTION 2*/
+
+.section2__title-one{
+    margin-top: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section2__title-one > h1 {
+    font-size: 30px;
+    margin-bottom: 1%;
+}
+
+.section2__title-one > p {
+    margin: 5% 0 0 0%;
+    font-size: 20px;
+    font-family: "Readex Pro";
+}
+
+.section2__button-women {
+    width: 220px;
+    height: 50px;
+    background: none;
+}
+.section2__button-women > a {
+    text-decoration: none;
+    color: red;
+}
+
+.section2__button-men > a{
+    text-decoration: none;
+    color: red;
+}
+.section2__button-men {
+    width: 220px;
+    height: 50px;
+    background: none;
+}
+
+.section2__buttons-a{
+    width: 80%;
+    margin: 5% 0 10% 0;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.section1-2__NewCollection {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 11%;
+    background: url("../images/new-coollection.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    /* box-shadow: 0px 0px 18px -4px #000000; */
+}
+/*FINISH SECTION 2*/
+
+
+/*START SECTION 3*/
+
+.section3 {
+    display: flex;
+   justify-content: center;
+   column-gap: 10%;
+    align-items: center;
+    margin-bottom: 11%;
+}
+
+.section3__tilte {
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.section3__sub-title {
+    margin: 3% 0 4% 0;
+    font-family: "Readex Pro";
+    padding: 0px 15px 0px 0px;
+    width: 500px;
+}
+
+.section3__T-shirts > a {
+    font-family: "Readex Pro";
+    flex: 0 1 auto;
+}
+
+.section3__shop-women{
+    margin-right: 3%;
+    text-decoration: none;
+    color: red;
+}
+.section3__shop-men{
+    text-decoration: none;
+    color: red;
+}
+.section3__img-shirt {
+    width: 50%;
+}
+
+/*FINISH SECTION 3*/
+
+
+/*START SECTION 4*/
+
+.section4__Title {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.section4__Women-shirt-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 15px;
+    /* flex-wrap: wrap; */
+}
+
+.section4__TshortsW-left {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.section4__TshortsW-Centre {
+    width: 100%;
+    height: 100%;
+    justify-self: center;
+}
+
+.section4__TshortsW-right {
+    width: 90%;
+}
+
+.section4__T-shirt_left {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.section4__TS-card {
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 15px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.section4__T-shirt_left{
+    align-self: flex-start;
+}
+.section4__T-shirt_left-3 {
+    justify-content: center;
+}
+.section4__TS-card {
+    width: 100%;
+    margin: 0px 0px 15px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*FINISH SECTION 4*/
+
+
+
+
+/*START SECTION 5*/
+
+.section5 {
+    margin: 10% 0;
+    background: rgba(0, 0, 0, 0.443);
+    box-shadow: 0px 0px 18px -4px #000000;
+}
+
+.section5__card-box {
+    padding: 5% 0 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+.section5__card-img {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 18px -4px #000000;
+}
+
+.section5__card-slider {
+    padding: 0px 10px;
+    margin: 0px 0px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 220px;
+}
+
+.section5__card-slider img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.section5__card-subtitle {
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    color: #fff;
+    flex: 1 1 auto;
+}
+
+/*FINISH SECTION 5*/
+
+
+
+
+@media(max-width:1400px){
+    .section5__card-img {
+        width: 320px;
+        height: 320px;
+    }
+}
+@media(max-width:1200px){
+    .section5__card-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 500px){
+    .section5__card-img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section3 {
+        flex-direction: column;
+    }
+    .section3__T-shirts {
+        margin: 0px 0px 20px 0px;
+    }
+    .section3__img-shirt {
+        width: 100%;
+        height: auto;
+    }
+    .section4__Women-shirt-card {
+        flex-direction: column;
+    }
+    .section4__T-shirt_left {
+        min-height: auto;
+    }
+    .section5__card-img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 361px) {
+    .section1-2__NewCollection {
+        height: 300px;
+    }
+    .section1__title-one {
+        font-size: 26px;
+    }
+    .section1__sub-title {
+        font-size: 14px;
+        margin: 0px 0px 10px 0px;
+    }
+}
